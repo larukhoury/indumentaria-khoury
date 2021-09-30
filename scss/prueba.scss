@@ -1,0 +1,102 @@
+
+@import "nosotros";
+
+body {
+    font-family: 'Roboto' , sans-serif;
+}
+
+.logo {
+    margin-left: 45%;
+    margin-bottom: 2%;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.hyp {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navegador ul li {
+    padding: 5px;
+    list-style-type: none;
+    background-color: rgb(231, 60, 88);
+    text-align: center;
+    width: 300px;  
+    font-size: 20px;
+    font-weight: 100;   
+}
+
+.titulos {
+    color: rgb(231, 60, 88);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.texto1 {
+    color: rgb(231, 60, 88);
+    font-size: 20px;
+    margin-left: 38%;
+    font-style: italic;
+    font-weight: 400;
+    width: 400px;
+    text-transform: uppercase; 
+}
+
+/*Footer*/
+
+footer {
+    grid-area: footer;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: rgb(231,60,88);  
+}
+
+.titulo-lista {
+    color:white;
+    font-size:  20px;
+    list-style: circle;
+    list-style-position: inside;
+   
+}
+
+.instagram {
+    color: white;
+    text-decoration: none;
+}
+
+.facebook {
+    color: white;
+    text-decoration: none;
+}
+
+.twitter {
+    color:white;
+    text-decoration: none;
+}
+
+.table {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20pt;
+    text-align: center;   
+    margin: 0 auto;
+    justify-self: center;
+    border: outset 3px;
+}
+
+#catalogo {
+    margin-left: 100px;
+}
